@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Systemd Service Manager
+GenericName=Service Manager
+Comment=Graphical manager for systemd system and user services
+Exec=systemd-manager
+Icon=systemd-manager
+Terminal=false
+Categories=System;Settings;
+Keywords=systemd;services;daemon;startup;enable;disable;
+StartupNotify=true
+StartupWMClass=systemd-manager
