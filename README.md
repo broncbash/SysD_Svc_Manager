@@ -53,7 +53,7 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/YOURUSERNAME/systemd-manager.git
+git clone https://github.com/broncbash/SysD_Svc_Manager.git
 cd systemd-manager
 
 # Build and install
@@ -65,7 +65,7 @@ This installs the script to `/usr/bin/systemd-manager`, registers the `.desktop`
 ### Option 2 — Manual install
 
 ```bash
-git clone https://github.com/YOURUSERNAME/systemd-manager.git
+git clone https://github.com/broncbash/SysD_Svc_Manager.git
 cd systemd-manager
 
 # Install dependencies
@@ -84,7 +84,7 @@ sudo gtk-update-icon-cache /usr/share/icons/hicolor
 ### Option 3 — Run directly (no install)
 
 ```bash
-git clone https://github.com/YOURUSERNAME/systemd-manager.git
+git clone https://github.com/broncbash/SysD_Svc_Manager.git
 cd systemd-manager
 sudo pacman -S python python-gobject gtk3 polkit
 python systemd-manager.py
