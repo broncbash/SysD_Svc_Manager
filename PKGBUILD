@@ -4,7 +4,7 @@ pkgver=1.0.0
 pkgrel=1
 pkgdesc="Graphical GTK3 manager for systemd system and user services"
 arch=('any')
-url="https://github.com/YOURUSERNAME/systemd-manager"
+url="https://github.com/broncbash/SysD_Svc_Manager.git"
 license=('MIT')
 depends=(
     'python'
