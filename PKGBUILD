@@ -1,5 +1,5 @@
 # Maintainer: broncbash	 
-pkgname=systemd-manager
+pkgname=SysD_Svc_Manager
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="Graphical GTK3 manager for systemd system and user services"
@@ -17,7 +17,7 @@ optdepends=(
     'polkit-gnome: polkit authentication agent for GNOME/i3/sway'
     'lxqt-policykit: polkit authentication agent for LXQt'
 )
-source=("$pkgname-$pkgver.tar.gz::https://github.com/YOURUSERNAME/$pkgname/archive/refs/tags/v$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::https://github.com/broncbash/$pkgname/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
